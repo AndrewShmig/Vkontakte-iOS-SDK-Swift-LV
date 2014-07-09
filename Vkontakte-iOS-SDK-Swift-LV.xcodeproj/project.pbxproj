@@ -12,6 +12,19 @@
 		D55201FD196D562100F1F564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55201FB196D562100F1F564 /* Main.storyboard */; };
 		D55201FF196D562100F1F564 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55201FE196D562100F1F564 /* Images.xcassets */; };
 		D552020B196D562100F1F564 /* Vkontakte_iOS_SDK_Swift_LVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D552020A196D562100F1F564 /* Vkontakte_iOS_SDK_Swift_LVTests.swift */; };
+		D5520216196D593E00F1F564 /* NSData+toBase64.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5520215196D593E00F1F564 /* NSData+toBase64.swift */; };
+		D5520218196D595900F1F564 /* NSString+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5520217196D595900F1F564 /* NSString+Utilities.swift */; };
+		D552021A196D598A00F1F564 /* VKConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5520219196D598A00F1F564 /* VKConnector.swift */; };
+		D552021C196D599C00F1F564 /* VKConnectorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D552021B196D599C00F1F564 /* VKConnectorDelegate.swift */; };
+		D552021E196D59CA00F1F564 /* VKRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D552021D196D59CA00F1F564 /* VKRequestManager.swift */; };
+		D5520220196D59E700F1F564 /* VKMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = D552021F196D59E700F1F564 /* VKMethods.swift */; };
+		D5520222196D59F600F1F564 /* VKRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5520221196D59F600F1F564 /* VKRequest.swift */; };
+		D5520224196D5A0100F1F564 /* VKRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5520223196D5A0100F1F564 /* VKRequestDelegate.swift */; };
+		D5520226196D5A2800F1F564 /* VKStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5520225196D5A2800F1F564 /* VKStorage.swift */; };
+		D5520228196D5A4F00F1F564 /* VKAccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5520227196D5A4F00F1F564 /* VKAccessToken.swift */; };
+		D552022C196D5A7400F1F564 /* VKCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D552022B196D5A7400F1F564 /* VKCache.swift */; };
+		D552022E196D5A8B00F1F564 /* VKStorageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D552022D196D5A8B00F1F564 /* VKStorageItem.swift */; };
+		D5520230196D5AA700F1F564 /* VKUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D552022F196D5AA700F1F564 /* VKUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,19 @@
 		D5520204196D562100F1F564 /* Vkontakte-iOS-SDK-Swift-LVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vkontakte-iOS-SDK-Swift-LVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5520209196D562100F1F564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D552020A196D562100F1F564 /* Vkontakte_iOS_SDK_Swift_LVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vkontakte_iOS_SDK_Swift_LVTests.swift; sourceTree = "<group>"; };
+		D5520215196D593E00F1F564 /* NSData+toBase64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+toBase64.swift"; sourceTree = "<group>"; };
+		D5520217196D595900F1F564 /* NSString+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Utilities.swift"; sourceTree = "<group>"; };
+		D5520219196D598A00F1F564 /* VKConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKConnector.swift; sourceTree = "<group>"; };
+		D552021B196D599C00F1F564 /* VKConnectorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKConnectorDelegate.swift; sourceTree = "<group>"; };
+		D552021D196D59CA00F1F564 /* VKRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKRequestManager.swift; sourceTree = "<group>"; };
+		D552021F196D59E700F1F564 /* VKMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKMethods.swift; sourceTree = "<group>"; };
+		D5520221196D59F600F1F564 /* VKRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKRequest.swift; sourceTree = "<group>"; };
+		D5520223196D5A0100F1F564 /* VKRequestDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKRequestDelegate.swift; sourceTree = "<group>"; };
+		D5520225196D5A2800F1F564 /* VKStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKStorage.swift; sourceTree = "<group>"; };
+		D5520227196D5A4F00F1F564 /* VKAccessToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKAccessToken.swift; sourceTree = "<group>"; };
+		D552022B196D5A7400F1F564 /* VKCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKCache.swift; sourceTree = "<group>"; };
+		D552022D196D5A8B00F1F564 /* VKStorageItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKStorageItem.swift; sourceTree = "<group>"; };
+		D552022F196D5AA700F1F564 /* VKUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +101,7 @@
 		D55201F4196D562100F1F564 /* Vkontakte-iOS-SDK-Swift-LV */ = {
 			isa = PBXGroup;
 			children = (
+				D5520214196D57A400F1F564 /* VkontakteSDK */,
 				D55201F7196D562100F1F564 /* AppDelegate.swift */,
 				D55201F9196D562100F1F564 /* ViewController.swift */,
 				D55201FB196D562100F1F564 /* Main.storyboard */,
@@ -107,6 +134,26 @@
 				D5520209196D562100F1F564 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5520214196D57A400F1F564 /* VkontakteSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D5520215196D593E00F1F564 /* NSData+toBase64.swift */,
+				D5520217196D595900F1F564 /* NSString+Utilities.swift */,
+				D5520219196D598A00F1F564 /* VKConnector.swift */,
+				D552021B196D599C00F1F564 /* VKConnectorDelegate.swift */,
+				D552021D196D59CA00F1F564 /* VKRequestManager.swift */,
+				D552021F196D59E700F1F564 /* VKMethods.swift */,
+				D5520221196D59F600F1F564 /* VKRequest.swift */,
+				D5520223196D5A0100F1F564 /* VKRequestDelegate.swift */,
+				D5520225196D5A2800F1F564 /* VKStorage.swift */,
+				D5520227196D5A4F00F1F564 /* VKAccessToken.swift */,
+				D552022B196D5A7400F1F564 /* VKCache.swift */,
+				D552022D196D5A8B00F1F564 /* VKStorageItem.swift */,
+				D552022F196D5AA700F1F564 /* VKUser.swift */,
+			);
+			name = VkontakteSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +255,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5520216196D593E00F1F564 /* NSData+toBase64.swift in Sources */,
+				D552021C196D599C00F1F564 /* VKConnectorDelegate.swift in Sources */,
+				D5520226196D5A2800F1F564 /* VKStorage.swift in Sources */,
+				D552021E196D59CA00F1F564 /* VKRequestManager.swift in Sources */,
 				D55201FA196D562100F1F564 /* ViewController.swift in Sources */,
+				D5520218196D595900F1F564 /* NSString+Utilities.swift in Sources */,
+				D552022C196D5A7400F1F564 /* VKCache.swift in Sources */,
+				D552022E196D5A8B00F1F564 /* VKStorageItem.swift in Sources */,
+				D5520224196D5A0100F1F564 /* VKRequestDelegate.swift in Sources */,
+				D552021A196D598A00F1F564 /* VKConnector.swift in Sources */,
 				D55201F8196D562100F1F564 /* AppDelegate.swift in Sources */,
+				D5520230196D5AA700F1F564 /* VKUser.swift in Sources */,
+				D5520222196D59F600F1F564 /* VKRequest.swift in Sources */,
+				D5520228196D5A4F00F1F564 /* VKAccessToken.swift in Sources */,
+				D5520220196D59E700F1F564 /* VKMethods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +455,7 @@
 				D5520210196D562100F1F564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5520211196D562100F1F564 /* Build configuration list for PBXNativeTarget "Vkontakte-iOS-SDK-Swift-LVTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +464,7 @@
 				D5520213196D562100F1F564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
