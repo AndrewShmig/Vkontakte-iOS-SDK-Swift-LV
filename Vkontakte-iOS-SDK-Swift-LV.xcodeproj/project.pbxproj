@@ -12,8 +12,6 @@
 		D55201FD196D562100F1F564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D55201FB196D562100F1F564 /* Main.storyboard */; };
 		D55201FF196D562100F1F564 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55201FE196D562100F1F564 /* Images.xcassets */; };
 		D552020B196D562100F1F564 /* Vkontakte_iOS_SDK_Swift_LVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D552020A196D562100F1F564 /* Vkontakte_iOS_SDK_Swift_LVTests.swift */; };
-		D5520216196D593E00F1F564 /* NSData+toBase64.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5520215196D593E00F1F564 /* NSData+toBase64.swift */; };
-		D5520218196D595900F1F564 /* NSString+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5520217196D595900F1F564 /* NSString+Utilities.swift */; };
 		D552021A196D598A00F1F564 /* VKConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5520219196D598A00F1F564 /* VKConnector.swift */; };
 		D552021C196D599C00F1F564 /* VKConnectorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D552021B196D599C00F1F564 /* VKConnectorDelegate.swift */; };
 		D552021E196D59CA00F1F564 /* VKRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D552021D196D59CA00F1F564 /* VKRequestManager.swift */; };
@@ -47,8 +45,6 @@
 		D5520204196D562100F1F564 /* Vkontakte-iOS-SDK-Swift-LVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vkontakte-iOS-SDK-Swift-LVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5520209196D562100F1F564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D552020A196D562100F1F564 /* Vkontakte_iOS_SDK_Swift_LVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vkontakte_iOS_SDK_Swift_LVTests.swift; sourceTree = "<group>"; };
-		D5520215196D593E00F1F564 /* NSData+toBase64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+toBase64.swift"; sourceTree = "<group>"; };
-		D5520217196D595900F1F564 /* NSString+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Utilities.swift"; sourceTree = "<group>"; };
 		D5520219196D598A00F1F564 /* VKConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKConnector.swift; sourceTree = "<group>"; };
 		D552021B196D599C00F1F564 /* VKConnectorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKConnectorDelegate.swift; sourceTree = "<group>"; };
 		D552021D196D59CA00F1F564 /* VKRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKRequestManager.swift; sourceTree = "<group>"; };
@@ -139,8 +135,6 @@
 		D5520214196D57A400F1F564 /* VkontakteSDK */ = {
 			isa = PBXGroup;
 			children = (
-				D5520215196D593E00F1F564 /* NSData+toBase64.swift */,
-				D5520217196D595900F1F564 /* NSString+Utilities.swift */,
 				D5520219196D598A00F1F564 /* VKConnector.swift */,
 				D552021B196D599C00F1F564 /* VKConnectorDelegate.swift */,
 				D552021D196D59CA00F1F564 /* VKRequestManager.swift */,
@@ -255,12 +249,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5520216196D593E00F1F564 /* NSData+toBase64.swift in Sources */,
 				D552021C196D599C00F1F564 /* VKConnectorDelegate.swift in Sources */,
 				D5520226196D5A2800F1F564 /* VKStorage.swift in Sources */,
 				D552021E196D59CA00F1F564 /* VKRequestManager.swift in Sources */,
 				D55201FA196D562100F1F564 /* ViewController.swift in Sources */,
-				D5520218196D595900F1F564 /* NSString+Utilities.swift in Sources */,
 				D552022C196D5A7400F1F564 /* VKCache.swift in Sources */,
 				D552022E196D5A8B00F1F564 /* VKStorageItem.swift in Sources */,
 				D5520224196D5A0100F1F564 /* VKRequestDelegate.swift in Sources */,
