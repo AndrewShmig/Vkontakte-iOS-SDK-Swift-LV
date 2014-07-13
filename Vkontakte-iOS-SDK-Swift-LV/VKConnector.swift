@@ -30,7 +30,7 @@ class VKConnector: NSObject, UIWebViewDelegate {
             "display": "mobile"]
         
         authorizationURL += join("&", Array(params.keys).map({ "\($0)=\(params[$0])" }))
-
+        
         let request = NSURLRequest(URL: NSURL(string: authorizationURL))
         webView.loadRequest(request)
     }

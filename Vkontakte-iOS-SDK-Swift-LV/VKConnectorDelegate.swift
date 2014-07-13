@@ -14,7 +14,9 @@ protocol VKConnectorProtocol {
     func connectorWillHidewebView(webView:UIWebView!)
     func connectorWebViewDidStartLoad(webView:UIWebView!)
     func connectorWebViewDidFinishLoad(webView:UIWebView!)
+    
     func connectorAccessTokenRenewalSucceeded()
     func connectorAccessTokenRenewalFailed()
+    
     func connectorConnectionError(error:NSError!)
 }
